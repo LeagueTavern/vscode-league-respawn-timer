@@ -1,0 +1,122 @@
+{
+  "name": "league-respawn-timer",
+  "displayName": "League Respawn Timer",
+  "description": "Display player respawn timer in Visual Studio Code.",
+  "version": "1.0.0",
+  "publisher": "ButterCookies",
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "author": {
+    "name": "ButterCookies",
+    "email": "admin@mitay.net"
+  },
+  "homepage": "https://mitay.net",
+  "bugs": {
+    "url": "https://github.com/Coooookies/vscode-league-respawn-timer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Coooookies/vscode-league-respawn-timer"
+  },
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "league-respawn-timer.enable-timer",
+        "title": "League Respawn Timer: Enable Respawn Timer"
+      },
+      {
+        "command": "league-respawn-timer.disable-timer",
+        "title": "League Respawn Timer: Disable Respawn Timer"
+      },
+      {
+        "command": "league-respawn-timer.show-menu",
+        "title": "League Respawn Timer: Show Menu"
+      }
+    ],
+    "configuration": {
+      "title": "League Respawn Timer Configuration",
+      "properties": {
+        "league-respawn-timer.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable respawn timer."
+        },
+        "league-respawn-timer.enable-notification": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable extension notification."
+        }
+      }
+    },
+    "icons": {
+      "lrt-leagueoflegends-online": {
+        "description": "League of Legends online icon",
+        "default": {
+          "fontPath": "assets/league-respawn-timer-icon.woff",
+          "fontCharacter": "\\e900"
+        }
+      },
+      "lrt-leagueoflegends-disabled": {
+        "description": "League of Legends disabled icon",
+        "default": {
+          "fontPath": "assets/league-respawn-timer-icon.woff",
+          "fontCharacter": "\\e904"
+        }
+      },
+      "lrt-leagueoflegends": {
+        "description": "League of Legends icon",
+        "default": {
+          "fontPath": "assets/league-respawn-timer-icon.woff",
+          "fontCharacter": "\\e902"
+        }
+      },
+      "lrt-champion": {
+        "description": "League of Legends champion icon",
+        "default": {
+          "fontPath": "assets/league-respawn-timer-icon.woff",
+          "fontCharacter": "\\e901"
+        }
+      },
+      "lrt-timing": {
+        "description": "LRT timing icon",
+        "default": {
+          "fontPath": "assets/league-respawn-timer-icon.woff",
+          "fontCharacter": "\\e903"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.84.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.8",
+    "eslint": "^8.54.0",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "nanobus": "^4.5.0"
+  }
+}
