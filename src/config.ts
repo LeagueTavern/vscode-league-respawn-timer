@@ -7,7 +7,7 @@ import {
 
 import type { ExtensionContext } from "vscode";
 
-export function RegisterConfig(context: ExtensionContext) {
+export function registerConfig(context: ExtensionContext) {
   const dynamicConfigLoad = () => {
     const enable = getConfiguration(CONFIG_ENABLE) as boolean;
 
