@@ -1,4 +1,4 @@
-![image](assets/banner.jpg)
+![image](https://raw.githubusercontent.com/Coooookies/vscode-league-respawn-timer/master/assets/banner.jpg)
 
 An extension to display **`League of Legends`** player respawn time in [Visual Studio Code](https://code.visualstudio.com).
 
