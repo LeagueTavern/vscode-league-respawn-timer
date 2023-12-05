@@ -2,7 +2,7 @@
 
 An extension to display **`League of Legends`** player respawn time in [Visual Studio Code](https://code.visualstudio.com).
 
-[![Stars](https://img.shields.io/github/stars/Coooookies/vscode-league-respawn-timer?logo=github&style=flat-square)](https://github.com/Coooookies/vscode-league-respawn-timer) [![License](https://img.shields.io/github/license/Coooookies/vscode-league-respawn-timer?style=flat-square)](https://github.com/Coooookies/vscode-league-respawn-timer)
+[![Version](https://img.shields.io/visual-studio-marketplace/v/ButterCookies.league-respawn-timer?logo=visualstudiocode&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=ButterCookies.league-respawn-timer) [![Installs](https://img.shields.io/visual-studio-marketplace/i/ButterCookies.league-respawn-timer?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=ButterCookies.league-respawn-timer) [![Ratings](https://img.shields.io/visual-studio-marketplace/r/ButterCookies.league-respawn-timer?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=ButterCookies.league-respawn-timer) [![Stars](https://img.shields.io/github/stars/Coooookies/vscode-league-respawn-timer?logo=github&style=flat-square)](https://github.com/Coooookies/vscode-league-respawn-timer) [![License](https://img.shields.io/github/license/Coooookies/vscode-league-respawn-timer?style=flat-square)](https://github.com/Coooookies/vscode-league-respawn-timer)
 
 #### Why did I make this extension?
 
