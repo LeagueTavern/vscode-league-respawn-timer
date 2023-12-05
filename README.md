@@ -22,6 +22,7 @@ _I play **`League of Legends`** and work on projects related to the game. To enh
 
 Press `Ctrl+Shift+P` to open the command palette, type `League Respawn Timer` and select the command you want to run.
 
+- `league-respawn-timer.enable-timer`: Enable this extension.
 - `league-respawn-timer.disable-timer`: Disable this extension.
 - `league-respawn-timer.show-menu`: Show the menu.
 
