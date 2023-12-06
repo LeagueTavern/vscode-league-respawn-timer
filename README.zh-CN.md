@@ -1,6 +1,7 @@
 ![image](https://raw.githubusercontent.com/Coooookies/vscode-league-respawn-timer/master/assets/banner.jpg)
 
 一款在 [Visual Studio Code](https://code.visualstudio.com) 里显示 **`《英雄联盟》`** 玩家重生时间的插件。
+
 [English](https://github.com/Coooookies/vscode-league-respawn-timer/blob/master/README.md) | 简体中文
 
 [![Version](https://img.shields.io/visual-studio-marketplace/v/ButterCookies.league-respawn-timer?logo=visualstudiocode&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=ButterCookies.league-respawn-timer) [![Installs](https://img.shields.io/visual-studio-marketplace/i/ButterCookies.league-respawn-timer?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=ButterCookies.league-respawn-timer) [![Ratings](https://img.shields.io/visual-studio-marketplace/r/ButterCookies.league-respawn-timer?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=ButterCookies.league-respawn-timer) [![Stars](https://img.shields.io/github/stars/Coooookies/vscode-league-respawn-timer?logo=github&style=flat-square)](https://github.com/Coooookies/vscode-league-respawn-timer) [![License](https://img.shields.io/github/license/Coooookies/vscode-league-respawn-timer?style=flat-square)](https://github.com/Coooookies/vscode-league-respawn-timer)
