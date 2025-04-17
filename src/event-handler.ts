@@ -7,7 +7,7 @@ export function registerEvents() {
   GameEventListener.on("event", (event) => {
     switch (event.EventName) {
       case "ChampionKill": {
-        if (event.VictimName === RespawnTimer.getSummonerName()) {
+        if (event.VictimName === RespawnTimer.getRiotIdGameName()) {
           RespawnTimer.start(event.EventTime);
           StatusBar.setStatus(StatusBarStatus.Timing);
         }
@@ -18,8 +18,8 @@ export function registerEvents() {
 
   GameEventListener.on("connected", () => {
     RespawnTimer.init()
-      .then((summonerName) =>
-        StatusBar.setStatus(StatusBarStatus.Connected, summonerName)
+      .then((riotIdGameName) =>
+        StatusBar.setStatus(StatusBarStatus.Connected, riotIdGameName)
       )
       .catch(() => Notication.failedToLoadSummonerInfo());
   });
