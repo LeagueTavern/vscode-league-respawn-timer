@@ -171,6 +171,9 @@ export type IResponseActivePlay = {
   >;
   level: number;
   summonerName: string;
+  riotId: string;
+  riotIdGameName: string;
+  riotIdTagLine: string;
   teamRelativeColors: boolean;
 };
 

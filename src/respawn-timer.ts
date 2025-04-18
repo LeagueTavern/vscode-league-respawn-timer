@@ -16,7 +16,7 @@ export const RespawnTimer =
     private gameMode = "";
     private respawnTime = 0;
     private remainingTimeInterval: NodeJS.Timeout | null = null;
-    private summonerName = "";
+    private riotIdGameName = "";
 
     init() {
       return new Promise<string>((resolve, reject) => {
@@ -25,8 +25,8 @@ export const RespawnTimer =
           gameStats: IResponseGamestats
         ) => {
           this.gameMode = gameStats.gameMode;
-          this.summonerName = activePlayer.summonerName;
-          return activePlayer.summonerName;
+          this.riotIdGameName = activePlayer.riotIdGameName;
+          return activePlayer.riotIdGameName;
         };
 
         Promise.all([APIClient.getActivePlayer(), APIClient.getGameStats()])
@@ -145,7 +145,7 @@ export const RespawnTimer =
       }
     }
 
-    getSummonerName() {
-      return this.summonerName;
+    getRiotIdGameName() {
+      return this.riotIdGameName;
     }
   })();
